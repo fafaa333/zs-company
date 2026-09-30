@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="description" content="ZS Company — Motion Design, Video Editing e Visual Storytelling.">
+  <title>ZS Company — Motion Design</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="cursor-dot"></div>
+  <div class="noise"></div>
+
+  <header class="navbar">
+    <a class="brand" href="#inicio">ZS Company</a>
+
+    <nav id="mobileNav">
+      <a href="#inicio" class="nav-link">INÍCIO</a>
+      <a href="#trabalhos" class="nav-link">TRABALHOS</a>
+      <a href="#servicos" class="nav-link">SERVIÇOS</a>
+      <a href="#sobre" class="nav-link">SOBRE</a>
+      <a href="#contato" class="nav-link">CONTATO</a>
+    </nav>
+
+    <a class="nav-cta" href="#contato">FALE COMIGO</a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileNav">
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="inicio" class="hero section">
+      <div class="hero-glow glow-a"></div>
+      <div class="hero-glow glow-b"></div>
+
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">MOTION DESIGN <i>•</i> VIDEO EDITING <i>•</i> VISUAL STORYTELLING</p>
+          <h1>ZS <span>Company</span></h1>
+          <p class="hero-subtitle">Transformando imagens em experiências.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn-light" href="#trabalhos">VER PORTFÓLIO</a>
+            <a class="btn btn-outline" href="#contato">FALE COMIGO</a>
+          </div>
+        </div>
+
+        <div class="showreel-card reveal">
+          <button class="play-button" data-modal="showreel" aria-label="Abrir showreel">▶</button>
+          <span>ÁREA DO SHOWREEL</span>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#trabalhos">
+        <span>SCROLL TO EXPLORE</span>
+        <strong>↓</strong>
+      </a>
+    </section>
+
+    <!-- WORKS -->
+    <section id="trabalhos" class="section works">
+      <div class="section-heading reveal">
+        <div>
+          <p class="section-index">01 // PORTFÓLIO</p>
+          <h2>SELECTED WORKS</h2>
+        </div>
+        <p class="section-description">
+          Uma seleção de projetos entre motion,<br>
+          cinema, esportes e automobilismo.
+        </p>
+      </div>
+
+      <div class="works-grid">
+        <article class="work-card work-one reveal" data-title="Night Drive" data-category="Automotive">
+          <div class="work-image"></div>
+          <div class="work-overlay"></div>
+          <div class="work-info">
+            <p>AUTOMOTIVE <i>//</i> 2025</p>
+            <h3>NIGHT DRIVE</h3>
+            <button class="project-link">VER PROJETO →</button>
+          </div>
+        </article>
+
+        <article class="work-card work-two reveal" data-title="Velocity" data-category="Sports">
+          <div class="work-image"></div>
+          <div class="work-overlay"></div>
+          <div class="work-info">
+            <p>SPORTS <i>//</i> 2025</p>
+            <h3>VELOCITY</h3>
+            <button class="project-link">VER PROJETO →</button>
+          </div>
+        </article>
+
+        <article class="work-card work-three reveal" data-title="Cinematic Frame" data-category="Cinematic">
+          <div class="work-image"></div>
+          <div class="work-overlay"></div>
+          <div class="work-info">
+            <p>CINEMATIC <i>//</i> 2025</p>
+            <h3>CINEMATIC FRAME</h3>
+            <button class="project-link">VER PROJETO →</button>
+          </div>
+        </article>
+
+        <article class="work-card work-four reveal" data-title="Full Speed" data-category="Motorsport">
+          <div class="work-image"></div>
+          <div class="work-overlay"></div>
+          <div class="work-info">
+            <p>MOTORSPORT <i>//</i> 2025</p>
+            <h3>FULL SPEED</h3>
+            <button class="project-link">VER PROJETO →</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SHOWREEL -->
+    <section class="section showreel-section">
+      <div class="center-heading reveal">
+        <p class="section-index">02 // SHOWREEL</p>
+        <h2>THE SHOWREEL</h2>
+        <p>Um pouco do que acontece quando movimento, ritmo e imagem se encontram.</p>
+      </div>
+
+      <div class="big-video reveal">
+        <button class="big-play" data-modal="showreel" aria-label="Reproduzir showreel">▶</button>
+        <span>SHOWREEL / PLACEHOLDER</span>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="sobre" class="section about">
+      <div class="about-copy reveal">
+        <p class="section-index">03 // SOBRE</p>
+        <h2>BEHIND<br>THE EDIT</h2>
+        <p>
+          Por trás de cada frame existe uma ideia, uma escolha e uma intenção.
+          A ZS Company transforma imagens, ritmo e movimento em experiências
+          visuais pensadas para gerar impacto.
+        </p>
+      </div>
+
+      <div class="about-placeholder reveal">
+        <span>FOTO / CRIADOR</span>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="servicos" class="section services">
+      <div class="section-heading reveal">
+        <div>
+          <p class="section-index">04 // SERVIÇOS</p>
+          <h2>WHAT I DO</h2>
+        </div>
+      </div>
+
+      <div class="service-list">
+        <article class="service reveal">
+          <span>01</span>
+          <div>
+            <h3>VIDEO EDITING</h3>
+            <p>Edição com ritmo, cortes, efeitos e narrativa visual.</p>
+          </div>
+        </article>
+
+        <article class="service reveal">
+          <span>02</span>
+          <div>
+            <h3>MOTION DESIGN</h3>
+            <p>Animações, textos, elementos gráficos e efeitos em movimento.</p>
+          </div>
+        </article>
+
+        <article class="service reveal">
+          <span>03</span>
+          <div>
+            <h3>CINEMATIC EDITS</h3>
+            <p>Edições com atmosfera, narrativa e impacto visual.</p>
+          </div>
+        </article>
+
+        <article class="service reveal">
+          <span>04</span>
+          <div>
+            <h3>SOCIAL MEDIA CONTENT</h3>
+            <p>Conteúdos verticais desenvolvidos para redes sociais.</p>
+          </div>
+        </article>
+
+        <article class="service reveal">
+          <span>05</span>
+          <div>
+            <h3>SPORTS & AUTOMOTIVE</h3>
+            <p>Edições dinâmicas para esporte, automobilismo e alta velocidade.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section process">
+      <div class="center-heading reveal">
+        <p class="section-index">05 // PROCESSO</p>
+        <h2>FROM IDEA TO FRAME</h2>
+      </div>
+
+      <div class="process-grid">
+        <article class="process-card reveal">
+          <strong>01</strong><h3>CONCEPT</h3><p>Entendimento da ideia e objetivo.</p>
+        </article>
+        <article class="process-card reveal">
+          <strong>02</strong><h3>EDIT</h3><p>Construção da narrativa e edição.</p>
+        </article>
+        <article class="process-card reveal">
+          <strong>03</strong><h3>MOTION</h3><p>Aplicação de animações, efeitos e identidade visual.</p>
+        </article>
+        <article class="process-card reveal">
+          <strong>04</strong><h3>FINAL</h3><p>Refinamento, sound design e entrega.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- IMPACT -->
+    <section class="section impact">
+      <p class="section-index reveal">06 // IMPACTO</p>
+
+      <div class="stats">
+        <div class="stat reveal"><strong>15<span>+</span></strong><small>PROJETOS</small></div>
+        <div class="stat reveal"><strong>XX<span>+</span></strong><small>VÍDEOS EDITADOS</small></div>
+        <div class="stat reveal"><strong>XX<span>+</span></strong><small>CLIENTES</small></div>
+        <div class="stat reveal"><strong>XX<span>+</span></strong><small>MILLION VIEWS</small></div>
+      </div>
+    </section>
+
+    <!-- INSTAGRAM -->
+    <section class="section instagram">
+      <div class="center-heading reveal">
+        <p class="section-index">07 // SOCIAL</p>
+        <h2>MORE ON INSTAGRAM</h2>
+        <p>Acompanhe novos trabalhos e edits.</p>
+        <a class="btn btn-light" href="https://www.instagram.com/zs.companyd/" target="_blank" rel="noopener">
+          @zs.companyd →
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contato" class="section contact">
+      <div class="contact-heading reveal">
+        <p class="section-index">08 // CONTATO</p>
+        <h2>LET'S CREATE<br>SOMETHING.</h2>
+        <p>Tem uma ideia? Vamos transformar em movimento.</p>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm">
+        <label>NOME<input type="text" name="name" required autocomplete="name"></label>
+        <label>E-MAIL<input type="email" name="email" required autocomplete="email" inputmode="email"></label>
+        <label>EMPRESA / PROJETO<input type="text" name="project" autocomplete="organization"></label>
+        <label>TIPO DE SERVIÇO
+          <select name="service">
+            <option value="">Selecione</option>
+            <option>Video Editing</option>
+            <option>Motion Design</option>
+            <option>Cinematic Edit</option>
+            <option>Social Media Content</option>
+            <option>Sports & Automotive</option>
+          </select>
+        </label>
+        <label>MENSAGEM<textarea name="message" rows="4" required></textarea></label>
+        <button class="btn btn-light submit" type="submit">ENVIAR PROJETO →</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <a class="brand" href="#inicio">ZS Company</a>
+      <p>Designed in motion.</p>
+    </div>
+    <div class="footer-links">
+      <a href="https://www.instagram.com/zs.companyd/" target="_blank" rel="noopener">Instagram</a>
+      <a href="#trabalhos">Portfólio</a>
+      <a href="#contato">Contato</a>
+    </div>
+    <small>© 2026 ZS Company. ALL RIGHTS RESERVED.</small>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Fechar modal">×</button>
+      <p class="section-index">PROJECT</p>
+      <h2 id="modalTitle">PROJECT</h2>
+      <p id="modalCategory">CATEGORY</p>
+      <div class="modal-video">ADICIONE O VÍDEO DO PROJETO AQUI</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
